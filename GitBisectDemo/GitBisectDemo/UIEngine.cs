@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GitBisectDemo
 {
-    public class UIEngine
+    public class UIEngine : IUIEngine
     {
         public int GetIntValue(string whatValue)
         {
@@ -13,6 +13,11 @@ namespace GitBisectDemo
             int value = int.Parse(answer);
 
             return value;
+        }
+
+        public void OutputValue(string value)
+        {
+            Console.WriteLine(value);
         }
     }
 }

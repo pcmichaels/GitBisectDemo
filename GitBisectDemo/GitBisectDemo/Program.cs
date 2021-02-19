@@ -2,19 +2,24 @@
 
 namespace GitBisectDemo
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var calculationEngine = new CalculationEngine();
             var uiEngine = new UIEngine();
 
+            RunCalculation(calculationEngine, uiEngine);
+        }
+
+        public static void RunCalculation(CalculationEngine calculationEngine, IUIEngine uiEngine)
+        {
             int x = uiEngine.GetIntValue("x");
             int y = uiEngine.GetIntValue("y");
 
             float result = calculationEngine.DoCalculation(x, y);
 
-            Console.WriteLine($"Answer is {result}");
+            uiEngine.OutputValue($"Answer is {result}");
         }
     }
 }
