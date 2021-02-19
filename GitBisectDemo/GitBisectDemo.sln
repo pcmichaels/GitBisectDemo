@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBisectDemo", "GitBisectDemo\GitBisectDemo.csproj", "{078E15A4-D1F7-4350-8303-3E8D45C60D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBisectDemo.Tests", "GitBisectDemo.Tests\GitBisectDemo.Tests.csproj", "{FD7BBEF5-B266-415F-A1B1-BA9059751C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078E15A4-D1F7-4350-8303-3E8D45C60D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078E15A4-D1F7-4350-8303-3E8D45C60D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078E15A4-D1F7-4350-8303-3E8D45C60D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078E15A4-D1F7-4350-8303-3E8D45C60D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7BBEF5-B266-415F-A1B1-BA9059751C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7BBEF5-B266-415F-A1B1-BA9059751C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7BBEF5-B266-415F-A1B1-BA9059751C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7BBEF5-B266-415F-A1B1-BA9059751C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E4E5839-0467-45D6-87FE-E72C67E109C2}
+	EndGlobalSection
+EndGlobal
