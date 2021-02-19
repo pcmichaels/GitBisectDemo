@@ -7,6 +7,6 @@ namespace GitBisectDemo
     public class CalculationEngine
     {
         public float DoCalculation(int x, int y) =>
-            x + y;
+            (x + y) - 1;
     }
 }

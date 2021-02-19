@@ -15,7 +15,7 @@ namespace GitBisectDemo
         public static void RunCalculation(CalculationEngine calculationEngine, IUIEngine uiEngine)
         {
             int x = uiEngine.GetIntValue("x") + 1;
-            int y = uiEngine.GetIntValue("y");
+            int y = uiEngine.GetIntValue("y") + 1;
 
             float result = calculationEngine.DoCalculation(x, y);
 
